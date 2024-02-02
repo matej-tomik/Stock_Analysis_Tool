@@ -1,68 +1,51 @@
 from classes import StockFinancials
 from typing import List
 import yfinance as yf
+from my_data_types import StockResult
 
 
 TREASURY_YLD_INDEX_TEN_YEAR: str = "^TNX"
 
-#
-
-test = True
-test = not test
-
-if test:
-    risk_free_rate: float = yf.Ticker(TREASURY_YLD_INDEX_TEN_YEAR).info.get('regularMarketPreviousClose',
-                                                                     0.04) / 100  # constant 0.04 get from sqeel ; )
-    security = StockFinancials('AACG',risk_free_rate)
-    print(
-        security.graham_result,
-        security.dcf_result,
-        security.ddm_result,
-        security.ticker,
-        security.name,
-        security.market_capital,
-        security.country,
-        security.sector,
-        security.industry
-    )
-else:
-    with open('screens/data.csv', 'r') as f:
+def analyse_screen(file_name: str):
+    with open(f'screens/{file_name}', 'r') as f:
         headers = f.readline()
         stocks = [stock.split(',') for stock in f.readlines()]
 
-    risk_free_rate: float = yf.Ticker(TREASURY_YLD_INDEX_TEN_YEAR).info.get('regularMarketPreviousClose', 0.04) / 100  # constant 0.04 get from sqeel ; )
-    with open('results/result.csv', 'w') as f:
-        print('Graham number Result,DCF Model Result,DDM Model Result,Ticker symbol,Name,Market Cap, Country,Sector,Industry',file=f)
+    result = open(f'results/{file_name[:-4]}_result.csv', 'w')
+    failed = open(f'failed/{file_name[:-4]}_failed.csv', 'w')
+    print('Graham number Result,DCF Advance Model Result,DDM Advance Model Result,DCF Simple Model Result,DDM Simple Model Result,Ticker symbol,Name,Market Cap, Country,Sector,Industry',file=result)
+    print('Graham number Result,DCF Advance Model Result,DDM Advance Model Result,DCF Simple Model Result,DDM Simple Model Result,Ticker symbol,Name,Market Cap, Country,Sector,Industry',file=failed)
 
-        failed_stocks: List[List[str]] = []
-        for stock in stocks:
-            ticker = stock[0]
+    # file_objects = {}
+    # for file_type in ['result', 'failed']:
+    #     with open(f'{file_type}s/{file_name[:-4]}_{file_type}.csv', 'w') as file:
+    #         file_objects[file_type] = file
+    #         print('Graham number Result,DCF Model Result,DDM Model Result,Ticker symbol,Name,Market Cap, Country,Sector,Industry',file=file)
+    # result = file_objects['result']
+    # failed = file_objects['failed']
 
-            try:
-                security = StockFinancials(ticker,risk_free_rate)
-                print(
-                    ','.join(
-                        [
-                            str(value) for value in (
-                                security.graham_result,
-                                security.dcf_result,
-                                security.ddm_result,
-                                security.ticker,
-                                security.name,
-                                security.market_capital,
-                                security.country,
-                                security.sector,
-                                security.industry
-                            )
-                        ]
-                    ),file=f
-                )
-            except:
-                failed_stocks.append([stock[0], stock[1]])
-                print([stock[0], stock[1]])
-    print('stock fail happens when there is no income statement, balance sheet, info or the ticker is invalid')
-    print(failed_stocks)
+    for stock in stocks:
+        analysed_stock = analyse_stock(stock[0])
+        file = failed
+        if [*analysed_stock.values()][:5].count('N/A') <= 2:
+            file = result
+        print(','.join([str(value) for value in [*analysed_stock.values()]]), file=file)
 
-# if __name__ == '__main__':
-#
 
+def get_screens() -> List[str]:
+    current_directory = os.path.dirname(os.path.realpath(__file__))
+    screens_directory = os.path.join(current_directory, "screens")
+    return [file for file in os.listdir(screens_directory) if os.path.isfile(os.path.join(screens_directory, file))]
+
+
+def main():
+    if __name__ == '__main__':
+        screens_to_run = get_screens()
+
+        for screen in screens_to_run:
+            analyse_screen(screen)
+
+main()
+# a = analyse_stock('AAPL')
+# for x in a:
+#     print(x, a[x])
