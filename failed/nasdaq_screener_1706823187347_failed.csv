@@ -1,0 +1,27 @@
+Graham number Result,DCF Advance Model Result,DDM Advance Model Result,DCF Simple Model Result,DDM Simple Model Result,Ticker symbol,Name,Market Cap, Country,Sector,Industry
+-4,N/A,N/A,3.61,N/A,AACG,ATA Creativity Global,33913512,China,Consumer Defensive,Education & Training Services
+1,N/A,N/A,5.24,N/A,AACI,Armada Acquisition Corp. I,87994064,United States,Financial Services,Shell Companies
+2,N/A,N/A,5.24,N/A,AACIU,Armada Acquisition Corp. I,None,United States,Financial Services,Shell Companies
+N/A,N/A,N/A,5.24,N/A,AACIW,Armada Acquisition Corp. I Warrant,None,United States,Financial Services,Shell Companies
+-1,N/A,N/A,N/A,N/A,AACT,Ares Acquisition Corporation II,656249984,United States,Financial Services,Shell Companies
+-16,-132496004914364.94,N/A,0.01,N/A,AADI,Aadi Bioscience, Inc.,42182096,United States,Healthcare,Biotechnology
+N/A,N/A,N/A,0.02,N/A,AAGR,African Agriculture Holdings In,60760136,United States,Consumer Defensive,Farm Products
+N/A,N/A,N/A,0.02,N/A,AAGRW,None,None,United States,Consumer Defensive,Farm Products
+-15,10.15,N/A,0.49,N/A,AAL,American Airlines Group, Inc.,9477602304,United States,Industrials,Airlines
+73,N/A,N/A,N/A,N/A,AAMC,Altisource Asset Management Cor,13046693,United States,Financial Services,Mortgage Finance
+4,N/A,N/A,N/A,-51.59,AAME,Atlantic American Corporation,55902304,United States,Financial Services,Insurance - Life
+-16,-7.6,N/A,0.44,N/A,AAOI,Applied Optoelectronics, Inc.,682254848,United States,Technology,Communication Equipment
+26,N/A,N/A,0.61,N/A,AAPL,Apple Inc.,2831537930240,United States,Technology,Consumer Electronics
+-1,-120647.98,N/A,0.1,N/A,AAU,Almaden Minerals, Ltd.,18538556,Canada,Basic Materials,Gold
+30,N/A,0.53,1.42,N/A,AB,AllianceBernstein Holding L.P.,3774266624,United States,Financial Services,Asset Management
+-15,N/A,N/A,2.64,N/A,ABAT,American Battery Technology Com,124266840,United States,Basic Materials,Other Industrial Metals & Mining
+-6,-8.33,N/A,0.5,N/A,ABCL,AbCellera Biologics Inc.,1423283840,Canada,Healthcare,Biotechnology
+-5,N/A,N/A,2.71,N/A,ABEO,Abeona Therapeutics Inc.,108482288,United States,Healthcare,Biotechnology
+385,496.54,N/A,0.22,N/A,ABG,Asbury Automotive Group Inc,4319607808,United States,Consumer Cyclical,Auto & Truck Dealerships
+-5,N/A,N/A,0.52,N/A,ABIO,ARCA biopharma, Inc.,23387592,United States,Healthcare,Biotechnology
+-2,N/A,N/A,N/A,N/A,ABL,Abacus Life, Inc.,791872512,United States,Financial Services,Insurance - Life
+N/A,N/A,N/A,N/A,N/A,ABLLL,Abacus Life, Inc. - 9.875% Fixe,None,None,None,None
+N/A,N/A,N/A,N/A,N/A,ABLLW,None,None,None,None,None
+3,N/A,N/A,0.58,N/A,ABLV,Able View Global Inc.,47430352,China,Communication Services,Advertising Agencies
+N/A,N/A,N/A,0.58,N/A,ABLVW,Able View Global Inc. Warrant,None,Hong Kong,Communication Services,Advertising Agencies
+51,95910.5,N/A,0.07,N/A,ABNB,Airbnb, Inc.,92530483200,United States,Consumer Cyclical,Travel Services

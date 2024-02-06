@@ -14,13 +14,14 @@ GrowthRate = float
 EarningsPerShare = float
 Wacc = float
 BookValuePerShare = float
+PriceOfStock = float
 
 MainInfo = Tuple[Optional[Sector], Optional[Industry], Optional[Country], Optional[Name], Optional[MarketCapital]]
 DdmAdvanceData = Optional[Tuple[Dividend, SharesOutstanding, NetIncome, DividendGrowthRate, Capm, GrowthRate]]
 DcfAdvanceData = Optional[Tuple[EarningsPerShare, Wacc, GrowthRate]]
 GrahamNumberData = Optional[Tuple[EarningsPerShare, BookValuePerShare]]
 DdmSimpleData = Optional[Tuple[Dividend, DividendGrowthRate, Capm]]
-DcfSimpleData = Optional[Tuple[Dividend, GrowthRate]]
+DcfSimpleData = Optional[Tuple[PriceOfStock, GrowthRate]]
 
 StockResult = {
     'graham_result': 'N/A',

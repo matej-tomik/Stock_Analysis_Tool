@@ -1,7 +1,6 @@
 from classes import StockFinancials
 from typing import List
 import yfinance as yf
-from my_data_types import StockResult
 
 
 TREASURY_YLD_INDEX_TEN_YEAR: str = "^TNX"
@@ -23,9 +22,9 @@ def analyse_screen(file_name: str):
     #         print('Graham number Result,DCF Model Result,DDM Model Result,Ticker symbol,Name,Market Cap, Country,Sector,Industry',file=file)
     # result = file_objects['result']
     # failed = file_objects['failed']
-
+    risk_free_rate: float = yf.Ticker(TREASURY_YLD_INDEX_TEN_YEAR).info.get('regularMarketPreviousClose',0.04) / 100  # constant 0.04 get from sqeel ; )
     for stock in stocks:
-        analysed_stock = analyse_stock(stock[0])
+        analysed_stock = analyse_stock(stock[0], risk_free_rate)
         file = failed
         if [*analysed_stock.values()][:5].count('N/A') <= 2:
             file = result
@@ -44,8 +43,3 @@ def main():
 
         for screen in screens_to_run:
             analyse_screen(screen)
-
-main()
-# a = analyse_stock('AAPL')
-# for x in a:
-#     print(x, a[x])
