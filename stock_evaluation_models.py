@@ -53,4 +53,4 @@ def ddm_simple(dividend: float, dividend_growth_rate: float, capm: float) -> flo
 
 def graham_number(earnings_per_share: float, book_value_per_share: float) -> float:
     result = 22.5 * earnings_per_share * book_value_per_share
-    return sqrt(result) if result > 0 else 'N/A'
+    return sqrt(result) if result > 0 else -sqrt(-result)

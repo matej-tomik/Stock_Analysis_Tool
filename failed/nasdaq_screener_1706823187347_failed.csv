@@ -1,27 +1,119 @@
 Graham number Result,DCF Advance Model Result,DDM Advance Model Result,DCF Simple Model Result,DDM Simple Model Result,Ticker symbol,Name,Market Cap, Country,Sector,Industry
--4,N/A,N/A,3.61,N/A,AACG,ATA Creativity Global,33913512,China,Consumer Defensive,Education & Training Services
-1,N/A,N/A,5.24,N/A,AACI,Armada Acquisition Corp. I,87994064,United States,Financial Services,Shell Companies
+-4,N/A,N/A,3.61,N/A,AACG,ATA Creativity Global,34463036,China,Consumer Defensive,Education & Training Services
+1,N/A,N/A,5.24,N/A,AACI,Armada Acquisition Corp. I,88316976,United States,Financial Services,Shell Companies
 2,N/A,N/A,5.24,N/A,AACIU,Armada Acquisition Corp. I,None,United States,Financial Services,Shell Companies
 N/A,N/A,N/A,5.24,N/A,AACIW,Armada Acquisition Corp. I Warrant,None,United States,Financial Services,Shell Companies
--1,N/A,N/A,N/A,N/A,AACT,Ares Acquisition Corporation II,656249984,United States,Financial Services,Shell Companies
--16,-132496004914364.94,N/A,0.01,N/A,AADI,Aadi Bioscience, Inc.,42182096,United States,Healthcare,Biotechnology
-N/A,N/A,N/A,0.02,N/A,AAGR,African Agriculture Holdings In,60760136,United States,Consumer Defensive,Farm Products
+-1,N/A,N/A,N/A,N/A,AACT,Ares Acquisition Corporation II,656875008,United States,Financial Services,Shell Companies
+N/A,N/A,N/A,0.02,N/A,AAGR,African Agriculture Holdings In,53816124,United States,Consumer Defensive,Farm Products
 N/A,N/A,N/A,0.02,N/A,AAGRW,None,None,United States,Consumer Defensive,Farm Products
--15,10.15,N/A,0.49,N/A,AAL,American Airlines Group, Inc.,9477602304,United States,Industrials,Airlines
-73,N/A,N/A,N/A,N/A,AAMC,Altisource Asset Management Cor,13046693,United States,Financial Services,Mortgage Finance
-4,N/A,N/A,N/A,-51.59,AAME,Atlantic American Corporation,55902304,United States,Financial Services,Insurance - Life
--16,-7.6,N/A,0.44,N/A,AAOI,Applied Optoelectronics, Inc.,682254848,United States,Technology,Communication Equipment
-26,N/A,N/A,0.61,N/A,AAPL,Apple Inc.,2831537930240,United States,Technology,Consumer Electronics
--1,-120647.98,N/A,0.1,N/A,AAU,Almaden Minerals, Ltd.,18538556,Canada,Basic Materials,Gold
-30,N/A,0.53,1.42,N/A,AB,AllianceBernstein Holding L.P.,3774266624,United States,Financial Services,Asset Management
--15,N/A,N/A,2.64,N/A,ABAT,American Battery Technology Com,124266840,United States,Basic Materials,Other Industrial Metals & Mining
--6,-8.33,N/A,0.5,N/A,ABCL,AbCellera Biologics Inc.,1423283840,Canada,Healthcare,Biotechnology
--5,N/A,N/A,2.71,N/A,ABEO,Abeona Therapeutics Inc.,108482288,United States,Healthcare,Biotechnology
-385,496.54,N/A,0.22,N/A,ABG,Asbury Automotive Group Inc,4319607808,United States,Consumer Cyclical,Auto & Truck Dealerships
--5,N/A,N/A,0.52,N/A,ABIO,ARCA biopharma, Inc.,23387592,United States,Healthcare,Biotechnology
+73,N/A,N/A,N/A,N/A,AAMC,Altisource Asset Management Cor,12576792,United States,Financial Services,Mortgage Finance
+4,N/A,N/A,N/A,-57.27,AAME,Atlantic American Corporation,49577592,United States,Financial Services,Insurance - Life
+19,N/A,N/A,0.76,N/A,AAT,American Assets Trust, Inc.,1637717504,United States,Real Estate,REIT - Diversified
+30,N/A,N/A,0.59,N/A,AB,AllianceBernstein Holding L.P.,3718312192,United States,Financial Services,Asset Management
+-15,N/A,N/A,2.64,N/A,ABAT,American Battery Technology Com,129762080,United States,Basic Materials,Other Industrial Metals & Mining
+-5,N/A,N/A,2.71,N/A,ABEO,Abeona Therapeutics Inc.,119404832,United States,Healthcare,Biotechnology
+-5,N/A,N/A,0.81,N/A,ABIO,ARCA biopharma, Inc.,23346772,United States,Healthcare,Biotechnology
 -2,N/A,N/A,N/A,N/A,ABL,Abacus Life, Inc.,791872512,United States,Financial Services,Insurance - Life
 N/A,N/A,N/A,N/A,N/A,ABLLL,Abacus Life, Inc. - 9.875% Fixe,None,None,None,None
 N/A,N/A,N/A,N/A,N/A,ABLLW,None,None,None,None,None
-3,N/A,N/A,0.58,N/A,ABLV,Able View Global Inc.,47430352,China,Communication Services,Advertising Agencies
+3,N/A,N/A,0.58,N/A,ABLV,Able View Global Inc.,49490372,China,Communication Services,Advertising Agencies
 N/A,N/A,N/A,0.58,N/A,ABLVW,Able View Global Inc. Warrant,None,Hong Kong,Communication Services,Advertising Agencies
-51,95910.5,N/A,0.07,N/A,ABNB,Airbnb, Inc.,92530483200,United States,Consumer Cyclical,Travel Services
+-11,N/A,N/A,0.14,N/A,ABOS,Acumen Pharmaceuticals, Inc.,182418080,United States,Healthcare,Biotechnology
+N/A,N/A,N/A,N/A,N/A,ABR^D,None,None,None,None,None
+N/A,N/A,N/A,N/A,N/A,ABR^E,None,None,None,None,None
+N/A,N/A,N/A,N/A,N/A,ABR^F,None,None,None,None,None
+N/A,N/A,N/A,-0.01,N/A,ABTS,Abits Group Inc,34132512,Hong Kong,Financial Services,Capital Markets
+-2,N/A,N/A,N/A,N/A,ACAB,Atlantic Coastal Acquisition Co,92699880,United States,Financial Services,Shell Companies
+N/A,N/A,N/A,N/A,N/A,ACABU,Atlantic Coastal Acquisition Co,None,United States,Financial Services,Shell Companies
+N/A,N/A,N/A,N/A,N/A,ACABW,Atlantic Coastal Acquisition Co,None,United States,Financial Services,Shell Companies
+-2,N/A,N/A,0.07,N/A,ACAC,Acri Capital Acquisition Corpor,60146600,United States,Financial Services,Shell Companies
+N/A,N/A,N/A,0.07,N/A,ACACU,Acri Capital Acquisition Corpor,None,United States,Financial Services,Shell Companies
+N/A,N/A,N/A,N/A,N/A,ACACW,None,None,None,None,None
+-7,N/A,N/A,1.14,N/A,ACAD,ACADIA Pharmaceuticals Inc.,4132410624,United States,Healthcare,Biotechnology
+-3,N/A,N/A,3.65,N/A,ACAH,Atlantic Coastal Acquisition Co,128870568,United States,Financial Services,Shell Companies
+0,N/A,N/A,3.65,N/A,ACAHU,Atlantic Coastal Acquisition Co,None,United States,Financial Services,Shell Companies
+N/A,N/A,N/A,3.65,N/A,ACAHW,Atlantic Coastal Acquisition Corp. Warrant,None,United States,Financial Services,Shell Companies
+4,N/A,N/A,1.89,N/A,ACBA,Ace Global Business Acquisition,41265772,Hong Kong,Financial Services,Shell Companies
+3,N/A,N/A,1.89,N/A,ACBAU,Ace Global Business Acquisition,None,Hong Kong,Financial Services,Shell Companies
+N/A,N/A,N/A,1.89,N/A,ACBAW,Ace Global Business Acquisition Limited Warrant,None,Hong Kong,Financial Services,Shell Companies
+-14,N/A,N/A,0.25,N/A,ACCD,Accolade, Inc.,1006298816,United States,Healthcare,Health Information Services
+11,N/A,N/A,0.07,N/A,ACDC,ProFrac Holding Corp.,1128474112,United States,Energy,Oil & Gas Equipment & Services
+-13,N/A,N/A,0.33,N/A,ACHL,Achilles Therapeutics plc,37112440,United Kingdom,Healthcare,Biotechnology
+-7,N/A,N/A,0.04,N/A,ACHR,Archer Aviation Inc.,1502807040,United States,Industrials,Aerospace & Defense
+-3,N/A,N/A,0.25,N/A,ACHV,Achieve Life Sciences, Inc.,95140272,Canada,Healthcare,Biotechnology
+-38,N/A,N/A,N/A,N/A,ACIC,American Coastal Insurance Corp,480944032,United States,Financial Services,Insurance - Property & Casualty
+-18,N/A,N/A,0.13,N/A,ACLX,Arcellx, Inc.,3354594048,United States,Healthcare,Biotechnology
+18,N/A,N/A,0.7,N/A,ACON,Aclarion, Inc.,3629100,United States,Healthcare,Health Information Services
+46,N/A,N/A,0.7,N/A,ACONW,None,None,United States,Healthcare,Health Information Services
+12,N/A,N/A,N/A,N/A,ACP,Aberdeen Income Credit Strategi,352263616,United Kingdom,Financial Services,Asset Management
+N/A,N/A,N/A,N/A,N/A,ACP^A,None,None,None,None,None
+N/A,N/A,N/A,N/A,N/A,ACR^C,None,None,None,None,None
+N/A,N/A,N/A,N/A,N/A,ACR^D,None,None,None,None,None
+-9,N/A,N/A,0.45,N/A,ACRS,Aclaris Therapeutics, Inc.,76857280,United States,Healthcare,Diagnostics & Research
+-18,N/A,N/A,0.08,N/A,ACRV,Acrivon Therapeutics, Inc.,88333312,United States,Healthcare,Biotechnology
+-30,N/A,N/A,0.85,N/A,ACST,Acasti Pharma, Inc.,22464566,Canada,Healthcare,Biotechnology
+51,N/A,N/A,0.73,N/A,ACT,Enact Holdings, Inc.,4260876288,United States,Financial Services,Insurance - Specialty
+N/A,N/A,N/A,N/A,N/A,ACV,568516,239591600,United States,Financial Services,Asset Management
+-3,N/A,N/A,0.22,N/A,ACXP,Acurx Pharmaceuticals, Inc.,42006168,United States,Healthcare,Biotechnology
+-2,N/A,N/A,0.72,N/A,ADAP,Adaptimmune Therapeutics plc,308885920,United Kingdom,Healthcare,Biotechnology
+N/A,N/A,N/A,N/A,N/A,ADC^A,None,None,None,None,None
+-12,N/A,N/A,0.06,N/A,ADD,Color Star Technology Co., Ltd.,6642996,United States,Communication Services,Entertainment
+-9,N/A,N/A,-0.01,N/A,ADES,Advanced Emissions Solutions, I,111716976,United States,Industrials,Pollution & Treatment Controls
+-20,N/A,N/A,0.62,N/A,ADIL,Adial Pharmaceuticals, Inc,1996104,United States,Healthcare,Biotechnology
+-1,N/A,N/A,1.92,N/A,ADMA,ADMA Biologics Inc,1186332032,United States,Healthcare,Biotechnology
+-5,N/A,N/A,0.03,N/A,ADN,Advent Technologies Holdings, I,12323051,United States,Utilities,Utilities - Renewable
+N/A,N/A,N/A,0.03,N/A,ADNWW,Advent Technologies Holdings, I,None,United States,Utilities,Utilities - Renewable
+9,N/A,N/A,0.03,N/A,ADOC,Edoc Acquisition Corp.,42658380,United States,Financial Services,Shell Companies
+5,N/A,N/A,N/A,N/A,ADOCR,Edoc Acquisition Corp.,None,United States,None,None
+N/A,N/A,N/A,0.03,N/A,ADOCW,Edoc Acquisition Corp.,None,United States,Financial Services,Shell Companies
+-9,N/A,N/A,0.72,N/A,ADPT,Adaptive Biotechnologies Corpor,518287296,United States,Healthcare,Biotechnology
+-2,N/A,N/A,25.25,N/A,ADRT,Ault Disruptive Technologies Co,35449092,United States,Financial Services,Shell Companies
+987,N/A,N/A,0.04,N/A,ADSEW,ADS-TEC ENERGY PLC Warrant,None,Ireland,Industrials,Electrical Equipment & Parts
+2,N/A,N/A,3.01,N/A,ADTH,AdTheorent Holding Company, Inc,240017984,United States,Communication Services,Advertising Agencies
+3,N/A,N/A,3.01,N/A,ADTHW,None,None,United States,Communication Services,Advertising Agencies
+-5,N/A,N/A,0.66,N/A,ADVM,Adverum Biotechnologies, Inc.,244485344,United States,Healthcare,Biotechnology
+N/A,N/A,N/A,-6.76,N/A,ADVWW,Advantage Solutions Inc.,None,United States,Communication Services,Advertising Agencies
+38,N/A,N/A,N/A,-0.07,ADX,Adams Diversified Equity Fund I,2326688512,United States,Financial Services,Asset Management
+-3,N/A,N/A,N/A,N/A,AEAE,AltEnergy Acquisition Corp.,80675560,United States,Financial Services,Shell Companies
+-7,N/A,N/A,N/A,N/A,AEAEU,AltEnergy Acquisition Corp.,None,United States,Financial Services,Shell Companies
+N/A,N/A,N/A,N/A,N/A,AEAEW,ALTENERGY ACQUISITION CORP C/WT,None,United States,Financial Services,Shell Companies
+5,N/A,N/A,N/A,-0.25,AEF,27762,252743968,United Kingdom,Financial Services,Asset Management
+N/A,N/A,N/A,N/A,N/A,AEFC,Aegon Funding Company LLC 5.10%,None,None,None,None
+-9,N/A,N/A,N/A,4.79,AEG,Aegon Ltd. New York Registry Sh,10298189824,Netherlands,Financial Services,Insurance - Diversified
+7,N/A,N/A,18.61,N/A,AEHR,Aehr Test Systems,440960032,United States,Technology,Semiconductor Equipment & Materials
+50,N/A,N/A,0.66,N/A,AEIS,Advanced Energy Industries, Inc,3694890240,United States,Industrials,Electrical Equipment & Parts
+N/A,N/A,N/A,N/A,N/A,AEL^A,None,None,None,None,None
+N/A,N/A,N/A,N/A,N/A,AEL^B,None,None,None,None,None
+-21,N/A,N/A,0.56,N/A,AEMD,Aethlon Medical, Inc.,4312734,United States,Healthcare,Medical Devices
+N/A,N/A,N/A,-0.02,N/A,AENTW,Adara Acquisition Corp. Redeema,None,United States,Communication Services,Entertainment
+13,N/A,N/A,0.58,N/A,AEON,AEON Biopharma, Inc.,347557440,United States,Healthcare,Biotechnology
+137,N/A,N/A,0.53,N/A,AER,AerCap Holdings N.V.,15770290176,Ireland,Industrials,Rental & Leasing Services
+N/A,N/A,N/A,8.8,N/A,AERT,Aeries Technology, Inc.,38813212,United States,Industrials,Consulting Services
+N/A,N/A,N/A,8.8,N/A,AERTW,None,None,United States,Industrials,Consulting Services
+-4,N/A,N/A,0.5,N/A,AESC,The AES Corporation Corporate,None,United States,Utilities,Utilities - Diversified
+-5,N/A,N/A,0.08,N/A,AESI,Atlas Energy Solutions Inc.,1696349952,United States,Energy,Oil & Gas Equipment & Services
+-4,N/A,N/A,0.11,N/A,AEVA,Aeva Technologies, Inc.,225303104,United States,Technology,Software - Infrastructure
+-3,N/A,N/A,0.42,N/A,AEYE,AudioEye, Inc.,58850052,United States,Technology,Software - Application
+-2,N/A,N/A,0.1,N/A,AFAR,Aura FAT Projects Acquisition C,63483064,Singapore,Financial Services,Shell Companies
+N/A,N/A,N/A,0.1,N/A,AFARW,Aura FAT Projects Acquisition C,None,Singapore,Financial Services,Shell Companies
+-3,N/A,N/A,N/A,N/A,AFB,AllianceBernstein National Muni,312169600,United States,Financial Services,Asset Management
+104,N/A,N/A,1.11,N/A,AFG,American Financial Group, Inc.,9795719168,United States,Financial Services,Insurance - Property & Casualty
+N/A,N/A,N/A,N/A,N/A,AFGB,American Financial Group, Inc. ,None,None,None,None
+N/A,N/A,N/A,N/A,N/A,AFGC,American Financial Group, Inc. ,21388426,None,None,None
+N/A,N/A,N/A,N/A,N/A,AFGD,American Financial Group, Inc. ,None,None,None,None
+N/A,N/A,N/A,N/A,N/A,AFGE,American Financial Group, Inc. ,None,None,None,None
+N/A,N/A,N/A,N/A,N/A,AFJK,Aimei Health Technology Co., Lt,91794424,None,None,None
+N/A,N/A,N/A,N/A,N/A,AFJKR,Aimei Health Technology Co., Lt,None,None,None,None
+N/A,N/A,N/A,N/A,N/A,AFJKU,Aimei Health Technology Co., Lt,None,None,None,None
+0,N/A,N/A,1053.56,N/A,AFRIW,Forafric Global PLC Warrants,None,Gibraltar,Consumer Defensive,Farm Products
+24,N/A,N/A,N/A,-1.66,AFT,Apollo Senior Floating Rate Fun,215071424,United States,Financial Services,Asset Management
+-2,N/A,N/A,8.39,N/A,AGAE,Allied Gaming & Entertainment I,47530768,United States,Communication Services,Entertainment
+1,N/A,N/A,-0.04,N/A,AGBA,AGBA Group Holding Limited,23802092,Hong Kong,Financial Services,Capital Markets
+N/A,N/A,N/A,-0.04,N/A,AGBAW,AGBA Acquisition Limited,None,Hong Kong,Financial Services,Capital Markets
+-22,N/A,N/A,N/A,0.83,AGD,Aberdeen Global Dynamic Dividen,233358976,United Kingdom,Financial Services,Asset Management
+2,N/A,N/A,1.39,N/A,AGE,AgeX Therapeutics, Inc.,14801006,United States,Healthcare,Biotechnology
+2,N/A,N/A,-0.07,N/A,AGEN,Agenus Inc.,257699872,United States,Healthcare,Biotechnology
+-160,N/A,N/A,0.09,N/A,AGFY,Agrify Corporation,5262158,United States,Industrials,Engineering & Construction
+-38,N/A,N/A,0.8,N/A,AGIO,Agios Pharmaceuticals, Inc.,1325741568,United States,Healthcare,Biotechnology
+N/A,N/A,N/A,N/A,N/A,AGM^C,None,None,None,None,None
+N/A,N/A,N/A,N/A,N/A,AGM^D,None,None,None,None,None

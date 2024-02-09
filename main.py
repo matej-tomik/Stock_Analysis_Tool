@@ -43,3 +43,4 @@ def main():
 
         for screen in screens_to_run:
             analyse_screen(screen)
+main()
