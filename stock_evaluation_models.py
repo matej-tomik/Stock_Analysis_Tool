@@ -41,9 +41,25 @@ def dcf_advanced(
     )
 
 
-# TODO: implement DCF simple this was not valid. But very funny.
-def dcf(growth_rate: float, free_cash_flow: float, shares_outstanding: float) -> float:
-    pass
+def dcf(
+    data: StockData, year: int = 10, terminal_growth_rate: float = 0.04
+) -> float:
+    camp = data.capm
+    growth_rate = data.earningsGrowth
+    earnings_per_share = data.trailingEps
+
+    if growth_rate < 0.05:
+        growth_rate = 0.05
+    x = 0
+    for n in range(1, year + 1):
+        x += ((1 + growth_rate) ** n) / ((1 + camp) ** n)
+    y = 0
+    for n in range(1, year + 1):
+        y += ((1 + terminal_growth_rate) ** n) / ((1 + camp) ** n)
+
+    return round(
+        earnings_per_share * (x + ((1 + growth_rate) ** 10) / ((1 + camp) ** 10) * y), 2
+    )
 
 
 def ddm_advanced(

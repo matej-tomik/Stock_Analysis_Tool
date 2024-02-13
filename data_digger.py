@@ -23,6 +23,13 @@ def get_current_price(
     )
 
 
+def get_discount_rate(
+    daily_low: Optional[float],
+    previous_close: Optional[float],
+) -> float:
+    return
+
+
 def compute_growth_rate(nums: List[float]) -> Optional[float]:
     """
     Computes average growth rate of a list of numbers based on the difference between the terminal and initial value.
@@ -143,6 +150,11 @@ def fetch_stock_data(ticker: str, risk_free_rate: float) -> StockData:
         data["taxProvision"],
         data["pretaxIncome"],
         data["capm"],
+    )
+
+    data["discountRate"] =  get_discount_rate(
+        data["freecasflow"],
+        data["earningsGrowth"],
     )
 
     return StockData(**data)

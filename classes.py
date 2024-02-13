@@ -29,6 +29,7 @@ class StockData:
     totalDividend: Optional[float] = None
     trailingEps: Optional[float] = None
     wacc: Optional[float] = None
+    discountRate: Optional[float] = None
 
     def to_dict(self):
         return {
@@ -56,6 +57,7 @@ class StockData:
             "pretaxIncome": self.pretaxIncome,
             "totalDebt": self.totalDebt,
             "wacc": self.wacc,
+            "discountRate": self.discountRate,
         }
 
     def validate_result(self, evaluation_dataset: List[str]) -> bool:
@@ -75,6 +77,8 @@ class StockValuation:
             self.result_set
         ) = (
             self.dcf_advanced
+        ) = (
+            self.dcf
         ) = self.ddm = self.ddm_advanced = self.graham = self.graham2 = None
 
     def fetch_data(self):
@@ -82,6 +86,7 @@ class StockValuation:
 
     def evaluate(self):
         evaluation_models = (
+            dcf,
             dcf_advanced,
             ddm,
             ddm_advanced,
@@ -95,8 +100,8 @@ class StockValuation:
             for i in range(len(validation_datasets))
         ]
 
-        # TODO: Add dcf simple model
         (
+            self.dcf,
             self.dcf_advanced,
             self.ddm,
             self.ddm_advanced,
