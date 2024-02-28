@@ -8,4 +8,4 @@ DCF Analysis: Our tool estimates the intrinsic value of a stock based on its pro
 
 DDM Analysis: This model evaluates a stock's worth based on its expected future dividend payments. Users input dividend yield, growth rate, and discount rate to obtain a valuation.
 
-Graham Number/Model: Named after Benjamin Graham, a renowned investor, this method assesses whether a stock is undervalued based on its earnings per share (EPS) and book value per share (BVPS).
+Graham Number: Named after Benjamin Graham, a renowned investor, this method assesses whether a stock is undervalued based on its earnings per share (EPS) and book value per share (BVPS).
