@@ -5,9 +5,8 @@ VERSION = "1.0.0"
 DESCRIPTION = "this app can analyse stock in 6 different way"
 
 
-with open('requirements.txt') as f:
-    requirements = f.read().splitlines()
-
+with open('requirements.txt', 'r', encoding='utf-16') as f:
+    requirements = f.read()
 
 setup(
     name="stock analyser",
