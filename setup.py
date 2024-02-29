@@ -2,11 +2,15 @@ from setuptools import setup, find_packages
 
 
 VERSION = "1.0.0"
-DESCRIPTION = "stock analyser"
+DESCRIPTION = "this app can analyse stock in 6 different way"
+
+
+with open('requirements.txt') as f:
+    requirements = f.read().splitlines()
 
 
 setup(
-    name="verysimplemodule",
+    name="stock analyser",
     version=VERSION,
     author="Matěj Tomík",
     author_email="<mtomik.work@gmail.com>",
@@ -22,4 +26,5 @@ setup(
         "Operating System :: Microsoft :: Windows",
     ],
     keywords=["python", "stock analysis"],
+    install_requires=requirements,
 )
