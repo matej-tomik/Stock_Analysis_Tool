@@ -65,7 +65,7 @@ class StockData:
 
 
 from data_digger import fetch_stock_data
-from stock_evaluation_models import dcf_advanced, ddm, ddm_advanced, graham, graham2
+from stock_evaluation_models import dcf, dcf_advanced, ddm, ddm_advanced, graham, graham2
 
 
 class StockValuation:

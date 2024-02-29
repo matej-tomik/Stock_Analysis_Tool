@@ -4,7 +4,6 @@ from typing import Dict, Optional, List
 from pandas import Series
 
 
-# TODO: Is this correct ? This seems like it would blow up the dividend a shot ton. :thinking:
 def get_total_dividend(
     dividend: Optional[float], cash_per_share: Optional[float]
 ) -> Optional[float]:
@@ -21,13 +20,6 @@ def get_current_price(
         if None in {daily_low, daily_high}
         else (daily_low + daily_high) / 2
     )
-
-
-def get_discount_rate(
-    daily_low: Optional[float],
-    previous_close: Optional[float],
-) -> float:
-    return
 
 
 def compute_growth_rate(nums: List[float]) -> Optional[float]:
@@ -150,11 +142,6 @@ def fetch_stock_data(ticker: str, risk_free_rate: float) -> StockData:
         data["taxProvision"],
         data["pretaxIncome"],
         data["capm"],
-    )
-
-    data["discountRate"] =  get_discount_rate(
-        data["freecasflow"],
-        data["earningsGrowth"],
     )
 
     return StockData(**data)
