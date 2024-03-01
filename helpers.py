@@ -12,8 +12,8 @@ dataset_ddm_advanced = [
     "capm",
     "earningsGrowth",
 ]
-dataset_graham = ["trailingEps", "bookValue"]
-dataset_graham2 = ["trailingEps", "earningsGrowth", "riskFreeRate"]
+dataset_graham_num = ["trailingEps", "bookValue"]
+dataset_graham = ["trailingEps", "earningsGrowth", "riskFreeRate"]
 
 
 validation_datasets = [
@@ -21,8 +21,8 @@ validation_datasets = [
     dataset_dcf_advanced,
     dataset_ddm,
     dataset_ddm_advanced,
+    dataset_graham_num,
     dataset_graham,
-    dataset_graham2,
 ]
 
 Result: Union[float, Literal["N/A"]] = "N/A"

@@ -1,6 +1,5 @@
 from dataclasses import dataclass
 from typing import Optional, List
-from helpers import Result, validation_datasets
 
 
 @dataclass
@@ -64,10 +63,6 @@ class StockData:
         return all(self.to_dict()[metric] is not None for metric in evaluation_dataset)
 
 
-from data_digger import fetch_stock_data
-from stock_evaluation_models import dcf, dcf_advanced, ddm, ddm_advanced, graham, graham2
-
-
 class StockValuation:
     def __init__(self, ticker: str, risk_free_rate: float):
         self.ticker = ticker
@@ -79,19 +74,22 @@ class StockValuation:
             self.dcf_advanced
         ) = (
             self.dcf
-        ) = self.ddm = self.ddm_advanced = self.graham = self.graham2 = None
+        ) = self.ddm = self.ddm_advanced = self.graham_num = self.graham = None
 
     def fetch_data(self):
+        from data_digger import fetch_stock_data
         self.data: StockData = fetch_stock_data(self.ticker, self.risk_free_rate)
 
     def evaluate(self):
+        from helpers import Result, validation_datasets
+        from stock_evaluation_models import dcf, dcf_advanced, ddm, ddm_advanced, graham_num, graham
         evaluation_models = (
             dcf,
             dcf_advanced,
             ddm,
             ddm_advanced,
+            graham_num,
             graham,
-            graham2,
         )
         self.result_set: List[Result] = [
             evaluation_models[i](self.data)
@@ -105,6 +103,6 @@ class StockValuation:
             self.dcf_advanced,
             self.ddm,
             self.ddm_advanced,
+            self.graham_num,
             self.graham,
-            self.graham2,
         ) = self.result_set

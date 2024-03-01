@@ -2,9 +2,6 @@ from classes import StockData
 from math import sqrt
 
 """""
-TODO: Switch from links to screenshots of the models in the repo. You can create links to the files. It would be epic.
-External sites can change over time..
-
 sources of the model computations
 
 dcf_advance is according to https://www.gurufocus.com/term/iv_dcf/AAPL/Intrinsic-Value:-DCF-(FCF-Based)/Apple
@@ -97,11 +94,11 @@ def ddm(data: StockData) -> float:
     )
 
 
-def graham(data: StockData) -> float:
+def graham_num(data: StockData) -> float:
     return round(sqrt(max(22.5 * data.trailingEps * data.bookValue, 0)), 2)
 
 
-def graham2(data: StockData) -> float:
+def graham(data: StockData) -> float:
     growth_rate = max(data.earningsGrowth, 0.05)
     return round(
         (data.trailingEps * (7 + growth_rate * 100) * 4.4) / (data.riskFreeRate * 100),
