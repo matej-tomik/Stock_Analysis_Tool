@@ -16,7 +16,7 @@ setup(
     description=DESCRIPTION,
     packages=find_packages(),
     long_description=open('README.md').read(),
-    url='https://github.com/matej-tomik/stock-screen-analyser',
+    url='https://github.com/matej-tomik/stock_screen_analyser',
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Education",
