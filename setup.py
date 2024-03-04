@@ -9,7 +9,7 @@ with open('requirements.txt', 'r', encoding='utf-16') as f:
     requirements = f.read()
 
 setup(
-    name="stock analyser",
+    name="stock_analyser_matej_tomik",
     version=VERSION,
     author="Matěj Tomík",
     author_email="<mtomik.work@gmail.com>",
