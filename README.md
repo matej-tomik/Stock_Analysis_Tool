@@ -24,6 +24,24 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 4. Push to the branch (`git push origin feature/your-feature-name`).
 5. Create a new Pull Request.
 
+## Test file example
+```Python
+from classes import StockValuation
+import yfinance as yf
+
+
+TREASURY_YLD_INDEX_TEN_YEAR: str = "^TNX"
+
+
+def get_risk_free_rate() -> float:
+    return round(yf.Ticker(TREASURY_YLD_INDEX_TEN_YEAR).info.get('regularMarketPreviousClose', 0.04) / 100, 4)
+
+
+security = StockValuation("AAPL", get_risk_free_rate())
+security.fetch_data()
+security.evaluate()
+print(security.result_set)  # [dcf, dcf_advanced, ddm, ddm_advanced, graham_num, graham,]
+```
 ## License
 This project is licensed under the [MIT License](https://opensource.org/license/mit)).
 
