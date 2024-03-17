@@ -6,7 +6,6 @@ sources of the model computations
 
 dcf_advance is according to https://www.gurufocus.com/term/iv_dcf/AAPL/Intrinsic-Value:-DCF-(FCF-Based)/Apple
 
-# TODO: Fix link and find proper model.
 dcf_simple  is according to https://finbox.com/NASDAQGS:AAPL/models/ddm-sg/ without calculating cash per share and 
 
 ddm_advance is according to https://finbox.com/NASDAQGS:AAPL/models/ddm-sg/
